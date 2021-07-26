@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitpod</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img class="nav__img" src="./img/logo.svg" alt="Gitpod logo" width="131" height="40">
+            <ul class="nav__menu">
+                <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Docs</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Changelog</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">We're hiring</a></li>
+            </ul>
+            <a class="nav__btn" href="#">Login</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="container intro__wrapper">
+                <div class="intro__left">
+                    <h1 class="intro__title">Always <br> Ready to Code</h1>
+                    <p class="intro__text">Spin up fresh, automated dev environments <br> for each task, in the cloud, in seconds.</p>
+                    <div class="intro__left--box">
+                        <a class="intro__btn" href="#">Try Now</a>
+                        <p class="intro__box--text">Open a workspace. <br> Start from any Git context.</p>
+                    </div>
+                    <ul class="intro__list">
+                        <li class="intro__item"><a class="intro__link" href="#"><img class="intro__list--img" src="./img/gitlab.svg" alt="gitlab icon" width="29" height="29"></a></li>
+                        <li class="intro__item"><a class="intro__link" href="#"><img class="intro__list--img" src="./img/github.svg" alt="github icon" width="29" height="29"></a></li>
+                        <li class="intro__item"><a class="intro__link" href="#"><img class="intro__list--img" src="./img/bitbucket.svg" alt="bitbucket icon" width="29" height="29"></a></li>
+                    </ul>
+                </div>
+                <div class="intro__right">
+                    <img src="./img/intro-img.png" srcset="./img/intro-img@2x.png" alt=" computer room" width="630" height="652">
+                </div>
+            </div>
+        </section>
+        <section class="select-project">
+            <div class="container">
+                <div class="select-project__box">
+                    <h2 class="select-project__text">Select project, <br><span class="select-project__line">check dependencies, checkout branch, view readme.txt, install tools, run build, run test, </span><br>start coding.</h2>
+                </div>
+            </div>
+        </section>
+        <section class="environments">
+            <div class="container">
+                <div class="environments__wrapper">
+                    <div class="environments__left">
+                        <h2 class="environments__title">Think CI/CD for dev environments</h2>
+                        <p class="environments__text">We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
+                        <a class="environments__btn orange" href="#">More on prebuilds</a>
+                        <a class="environments__btn pink" href="#">Documentation</a>
+                    </div>
+                    <div class="environments__right">
+                        <img src="./img/dev-environment.png" alt="code" width="590" height="472">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secure">
+            <div class="container secure__wrapper">
+                <h2 class="secure__title">Remote-first. Secure by design.</h2>
+                <img class="secure__img" src="./img/remote-first-img.png" srcset="./img/remote-first-img@2x.png" alt="codes" width="1269" height="821">
+                <p class="secure__text">You no longer need an over-powered laptop to code, Gitpod works just as <br> smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes <br> all source code and never stores it on insecure machines and networks.</p>
+                <ul class="secure__list">
+                    <li class="secure__item"><a class="secure__btn chrome" href="#">Chrome Extension</a></li>
+                    <li class="secure__item"><a class="secure__btn firefox" href="#">Firefox Extension</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="used">
+            <div class="container">
+                <h2 class="used__title">Used by 400,000+ developers.</h2>
+                <ul class="used__menu">
+                    <li class="used__card">
+                        <p class="used__card--text">GitPod is incredibly cool. <br><br> In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+                        <div class="used__card--wrapper">
+                            <img src="./img/ben-halpern.jpg" srcset="./img/ben-halpern@2x.jpg" alt="ben halpern" width="48" height="48">
+                            <div class="used__card--box">
+                                <h3 class="used__card--name">Ben Halpern</h3>
+                                <p class="used__card--description">Creator and Co-founder <span><a class="used__card--link" href="#">@forem</a></span> and <span><a class="used__card--link" href="#">@ThePracticalDev</a></span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="used__card">
+                        <p class="used__card--text">Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked. <br><br> Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p>
+                        <div class="used__card--wrapper">
+                            <img src="./img/michael.jpg" srcset="./img/michael@2x.jpg" alt="Michael Friedrich" width="48" height="48">
+                            <div class="used__card--box">
+                                <h3 class="used__card--name">Michael Friedrich</h3>
+                                <p class="used__card--description">Developer Evangelist <span><a class="used__card--link" href="#">@GitLab</a></span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="used__card">
+                        <p class="used__card--text">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                        <div class="used__card--wrapper">
+                            <img src="./img/julius-volz.jpg" srcset="./img/julius-volz@2x.jpg" alt="Julius Volz" width="48" height="48">
+                            <div class="used__card--box">
+                                <h3 class="used__card--name">Julius Volz</h3>
+                                <p class="used__card--description">Creator <span><a class="used__card--link" href="#">@PrometheusIO</a></span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="used__card">
+                        <p class="used__card--text">I think I’m in love with @gitpod. It’s such a powerful tool. I’ve learned so much in the past week just from stumbling across Github repos that interest me and appending “http://gitpod.io/#” to the URL. A+ tool all around.</p>
+                        <div class="used__card--wrapper">
+                            <img src="./img/david-ressler.jpg" srcset="./img/david-ressler@2x.jpg" alt="David Ressler" width="48" height="48">
+                            <div class="used__card--box">
+                                <h3 class="used__card--name">David Ressler</h3>
+                                <p class="used__card--description">Engineering Manager <span><a class="used__card--link" href="#">@instagram</a></span></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="used__list">
+                    <li class="used__item"><img class="used__logo" src="./img/logo-gitlab.svg" alt="gitlab logo" width="138" height="46"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-freecodecamp.svg" alt="freecodecamp logo" width="138" height="20"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-dwave.svg" alt="d:wave logo" width="138" height="67"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-google.svg" alt="google logo" width="138" height="36"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-amazon.svg" alt="amazon logo" width="138" height="33"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-facebook.svg" alt="facebook logo" width="138" height="22"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-uber.svg" alt="uber logo" width="138" height="37"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-intel.svg" alt="intel logo" width="138" height="67"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-theia.svg" alt="theia logo" width="138" height="17"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-code-institute.svg" alt="code institute logo" width="138" height="46"></li>
+                    <li class="used__item"><img class="used__logo" src="./img/logo-4geeks.svg" alt="4geeks logo" width="138" height="38"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="started">
+            <div class="container">
+                <h2 class="started__title">Get started now</h2>
+                <div class="started__wrapper">
+                    <div class="started__left">
+                        <h3 class="started__left--title">Connect Git repository</h3>
+                        <p class="started__left--description">Select a Git provider to start with an existing project from any Git context.</p>
+                        <ul class="started__left--list">
+                            <li class="started__left--item"><a class="started__left--btn started__orange" href="#">Continue with GitLab</a></li>
+                            <li class="started__left--item"><a class="started__left--btn started__black" href="#">Continue with GitHub</a></li>
+                            <li class="started__left--item"><a class="started__left--btn started__blue" href="#">Continue with Bitbucket</a></li>
+                        </ul>
+                        <p class="started__left--text">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                        <a class="started__left--link" href="#">gitpod.io/#</a>
+                    </div>
+                    <div class="started__left">
+                        <h2 class="started__right--title">Launch an example workspace</h2>
+                        <p class="started__right--description">Dive into one of our example workspaces</p>
+                        <ul class="started__right--list">
+                            <li class="started__right--item">
+                                <p class="started__right--workspace started__typescript">Node or TypeScript</p>
+                                <a class="started__right--btn" href="#">Launch workspace</a>
+                            </li>
+                            <li class="started__right--item">
+                                <p class="started__right--workspace started__python">Python</p>
+                                <a class="started__right--btn" href="#">Launch workspace</a>
+                            </li>
+                            <li class="started__right--item">
+                                <p class="started__right--workspace started__go">Go</p>
+                                <a class="started__right--btn" href="#">Launch workspace</a>
+                            </li>
+                            <li class="started__right--item">
+                                <p class="started__right--workspace started__rust">Rust</p>
+                                <a class="started__right--btn" href="#">Launch workspace</a>
+                            </li>
+                            <li class="started__right--item">
+                                <p class="started__right--workspace started__java">Java</p>
+                                <a class="started__right--btn" href="#">Launch workspace</a>
+                            </li>
+                            <li class="started__right--item">
+                                <p class="started__right--workspace started__svelte">Svelte</p>
+                                <a class="started__right--btn" href="#">Launch workspace</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__wrappper">
+            <div class="footer__top">
+                <ul class="footer__top--menu">
+                    <li class="footer__menu--item footer__gitpod">
+                        <h2 class="footer__menu--title">Gitpod</h2>
+                        <ul class="footer__top--list">
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Home</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Features</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Pricing</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Changelog</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">SElf-Hosted</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Gitpod vs GitHub Codespaces</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Status</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__menu--item footer__developer">
+                        <h2 class="footer__menu--title">Developer</h2>
+                        <ul class="footer__top--list">
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Getting started</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Screencasts</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Blog</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Documentation</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Report a bug</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Community</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__menu--item footer__company">
+                        <h2 class="footer__menu--title">Company</h2>
+                        <ul class="footer__top--list">
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">About</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Careers</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Contact</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Media Kit</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__menu--item footer__legal">
+                        <h2 class="footer__menu--title">Legel</h2>
+                        <ul class="footer__top--list">
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Imprint</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Terms of Service</a></li>
+                            <li class="footer__list--item"><a class="footer__top--link" href="#">Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <hr class="footer__hr">
+            <div class="footer__bottom">
+                <div class="footer__bottom--left">
+                    <img src="./img/footer-logo.svg" alt="footer logo" width="24" height="24">
+                    <p class="footer__bootom--text">Copyright © 2021 Gitpod</p>
+                </div>
+                <ul class="footer__bootom--list">
+                    <li class="footer__bootom--item"><a class="footer__bootom--link" href="#"><img src="./img/yellow-twitter.svg" alt="yellow twitter logo" width="24" height="24"></a></li>
+                    <li class="footer__bootom--item"><a class="footer__bootom--link" href="#"><img src="./img/yellow-github.svg" alt="yellow github logo" width="24" height="24"></a></li>
+                    <li class="footer__bootom--item"><a class="footer__bootom--link" href="#"><img src="./img/yellow-whatsapp.svg" alt="yellow whatsapp logo" width="24" height="24"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__cookies">
+            <p class="footer__cookies--text">This website uses cookies to enhance the user experience. Read our <span><a class="footer__cookies--link" href="#">privacy policy</a></span> for more info.</p>
+            <a class="footer__cookies--btn" href="#">Accept Cookies</a>
+        </div>
+    </footer>
+</body>
+</html>
